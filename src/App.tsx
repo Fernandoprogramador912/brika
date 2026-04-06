@@ -1,41 +1,50 @@
+import bano1 from './assets/gallery/banos/bano-1.jpg'
+import bano2 from './assets/gallery/banos/bano-2.jpg'
+import bano3 from './assets/gallery/banos/bano-3.jpg'
+import bano4 from './assets/gallery/banos/bano-4.jpg'
+import cocina1 from './assets/gallery/cocinas/cocina-1.jpg'
+import cocina2 from './assets/gallery/cocinas/cocina-2.jpg'
+import cocina3 from './assets/gallery/cocinas/cocina-3.jpg'
+import cocina4 from './assets/gallery/cocinas/cocina-4.webp'
+
 const HERO_KITCHEN =
   'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2400&q=85'
 
 const KITCHENS = [
   {
-    src: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Cocina integrada con barra desayunador y electrodomésticos empotrados',
+    src: cocina1,
+    alt: 'Cocina moderna con muebles en gris oscuro, madera y mesada clara',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Cocina lineal moderna con alacenas y mesada de piedra',
+    src: cocina2,
+    alt: 'Cocina minimalista con alacenas brillantes, mesada blanca y mesada de mármol',
   },
   {
-    src: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Cocina blanca con mesadas, guardado a techo e iluminación LED',
+    src: cocina3,
+    alt: 'Cocina con isla en mármol oscuro, iluminación colgante y electrodomésticos integrados',
   },
   {
-    src: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Cocina amplia con isla, banquetas y sector de preparación gourmet',
+    src: cocina4,
+    alt: 'Cocina contemporánea con diseño limpio y mobiliario a medida',
   },
 ] as const
 
 const BATHROOMS = [
   {
-    src: '/images/bano-referencia-brika.png',
-    alt: 'Baño principal moderno con bañera independiente, vanitory flotante, ducha a medida y revestimiento en tonos oscuros',
+    src: bano1,
+    alt: 'Baño principal con mármol, bañera independiente y doble vanitory',
   },
   {
-    src: 'https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Baño con ducha vidriada, vanitory y revestimientos claros',
+    src: bano2,
+    alt: 'Baño con vanitory en madera clara, espejo ovalado y ventana circular',
   },
   {
-    src: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Baño moderno con ducha, mesada y detalles minimalistas',
+    src: bano3,
+    alt: 'Baño con bañera empotrada, texturas claras e iluminación indirecta',
   },
   {
-    src: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85',
-    alt: 'Baño contemporáneo con grifería negra y combinación de texturas',
+    src: bano4,
+    alt: 'Baño moderno con vanitory en madera, bañera y sector de ducha acristalado',
   },
 ] as const
 
