@@ -313,13 +313,13 @@ function App() {
               </div>
               <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap lg:flex-col xl:flex-row">
                 <a
-                  href="tel:+5491112345678"
+                  href="tel:+5491171574227"
                   className="inline-flex flex-1 items-center justify-center rounded-2xl bg-white px-6 py-4 text-center text-sm font-semibold text-brika-ink transition hover:bg-brika-sand"
                 >
                   Llamar ahora
                 </a>
                 <a
-                  href="https://wa.me/5491112345678"
+                  href="https://wa.me/5491171574227"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex flex-1 items-center justify-center rounded-2xl border border-white/25 bg-white/10 px-6 py-4 text-center text-sm font-semibold backdrop-blur-sm transition hover:bg-white/15"
@@ -335,7 +335,8 @@ function App() {
               </div>
             </div>
             <p className="mt-10 text-center text-xs text-white/45">
-              Reemplazá teléfono y correo por los datos reales de tu negocio.
+              También podés escribirnos por correo; actualizá la dirección si
+              usás otra.
             </p>
           </div>
         </section>
